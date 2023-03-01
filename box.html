@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--
+         border : 태그가 어느정도의 부피를 가지는 확인
+        -->
+    <style>
+        /*
+        css 주석
+        ########
+        화면 전체를 차지하는 border : block level element(tag)
+        자기 자신만을 차지하는 border : inline elemnet
+        display : 형식 변경, block<->inline
+        display : none -> 안보이게 하기
+        ,를 통해 중복인 것들을 한번으로 퉁칠 수 있음
+        border-width:5px;
+        border-color: red;
+        border-style: solid;
+        도 되지만 border: 5px red solid; 이렇게 해도 됨
+        
+        */
+        h1, a{
+            border:5px red solid;
+
+        }
+        h1{
+            display:inline;
+        }
+        a{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS</h1>
+    Cascading Style Sheets (<a href="https://surviv.io/" target="_blank">CSS</a>) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
+
+</body>
+</html>
